@@ -1,0 +1,263 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body
+{
+background-color: white;
+font-family: sans-serif;
+font-size: 15px;
+}
+
+header{
+  height: 80px;
+}
+
+div img {
+  float: left;
+  width: 230px;
+  margin-right: 13%;
+  margin-top: 2px;
+  transition: 0.6s;
+
+}
+div.sticky{
+  padding: 0px 10px;
+  background: #fff
+}
+.menu-bar
+{
+
+position: fixed;
+width: 100%;
+left: 0;
+top: 0;
+transition: .6s;
+justify-content: space-between;
+align-items: center;
+z-index: 100000;
+padding: 10px 30px;
+
+
+}
+
+.menu-bar ul
+{
+  position: relative;
+  display: flex;
+  list-style: none;
+  color: cornsilk;
+  justify-content: center;
+  
+ 
+ 
+}
+.menu-bar ul li
+{
+  width: 140px;
+  margin : 9px 1px 1px;
+  padding: 15px;
+  margin-top: 15px;
+  position: relative;
+
+}
+
+.menu-bar ul li a
+{
+text-decoration: none ;  
+color: black;
+position: relative;
+letter-spacing: 2px;
+font-weight: 500px;
+transition: 0.6s;
+
+
+}
+.active, .menu-bar ul li:hover
+{
+  margin: 10px;
+}
+
+.menu-bar .fa
+{
+  margin-right: 5px;
+}
+
+li input {
+  width: 80px;
+  height: 19px;
+  text-align: center;
+  background-color: rgb(242, 242, 242);
+ border-radius: 7px;
+}
+
+nav.sticky ul li a{
+  color: #000;
+
+}
+
+#background h1{
+  background-image: url("https://cdn.shopify.com/s/files/1/0317/0687/3992/files/bg_about.jpg?v=1580377813");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 140px;
+  text-align: center;
+  font-family: poppins;
+  font-size: 180%;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+
+  }
+  th {
+    text-align: left;
+  }
+
+  table {
+  border-spacing: 5px;
+  margin: 30px;
+  width: 90%;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-top: 6%;
+}
+table img {
+  width: 20px;
+  height: 20px
+}
+
+#purchaseForm{
+
+    width: 70%;
+    margin-right: 20px;
+}
+
+/* fieldset input {
+  background-color:  rgba(9, 48, 16, 0.919) ;
+  color: white;
+} */
+
+fieldset input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(9, 48, 16, 0.919);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  fieldset input[type=submit] {
+    width: 20%;
+    background-color: rgba(9, 48, 16, 0.919);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 500px;
+  }
+
+
+  
+  fieldset input[type=submit]:hover {
+    background-color:rgba(165, 194, 170, 0.919) ;
+  }
+  
+  #purchaseForm {
+     margin-left: 5%; 
+     margin-top: 5%;
+    border-radius: 5px;
+    background-color: rgb(246, 246, 246);
+    padding: 20px;
+    width:90%;
+    box-shadow: 0 4px 8px 0 rgba(9, 48, 16, 0.919), 0 6px 20px 0  rgba(9, 48, 16, 0.919);
+    
+  }
+
+  fieldset label{
+
+  margin-left: 15px;
+ 
+  }
+  legend{
+      color:rgba(9, 48, 16, 0.919) ;
+  }
+
+  fieldset label {
+    color:rgba(9, 48, 16, 0.919) ;
+}
+
+fieldset input[type=text]:hover {
+  background-color: rgba(165, 194, 170, 0.919) ;
+  }
+
+  /* h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  } */
+
+  footer{
+    background:rgba(9, 48, 16, 0.919) ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;  
+    margin-top: 100%; 
+    font-size: 15px;
+    color: #fff;
+    padding: 2px;
+    
+  }
+  footer .info{
+      float:left;
+  }
+  footer .info ul {
+      display: inline-flex;
+      list-style: none;
+      margin-top: 28px;
+  }
+  
+  footer .info ul li {
+      margin : 9px 1px 1px;
+      padding: 27px;
+      margin-left: 10px;
+  }
+  footer .info ul li a {
+      color: white;
+  
+  }
+  footer .socialMedia{
+      float: right;
+      
+  }
+  footer .socialMedia ul{
+      display: inline-flex;
+      list-style: none;
+      margin-top: 28px;
+      
+  }
+  footer .socialMedia ul li {
+      margin : 9px 1px 1px;
+      padding: 25px;
+      margin-right: 10px;
+      
+  }
+  footer .socialMedia ul li a {
+      color: white;
+      font-size: 30px;
+  }
+  footer img {
+      width: 130px;
+      margin-top: 7px;
+      margin-bottom: 7px;
+  }
